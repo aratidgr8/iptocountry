@@ -26,7 +26,9 @@ This is a REST API built using node.js version 8.11.2, express framework and MyS
 
 10. In <strong>csv2sql.php</strong> file now change the "table name" input to <strong>ip2location_db3_ipv6</strong> and "Name of the file" input to <strong>IP2LOCATION-LITE-DB3.IPV6.CSV</strong> and submit the form once again. <br /><strong>It should load table ip2location_db3_ipv6 with 3719942 rows.</strong>
 
-11. Now, go to the browser and load below URL:<br /> <code>http://localhost:4001/api/v1/userscountry</code>
+11. Go to terminal and run below command:<br /><code>node app.js</code>
 
-12. Script fetched your IP address and returns your location information in JSON format as below:<br />
+12. Now, go to the browser and load below URL:<br /> <code>http://localhost:4001/api/v1/userscountry</code>
+
+13. Script fetched your IP address and returns your location information in JSON format as below:<br />
 <code>{"country_code":"IN","country_name":"India","region_name":"Gujarat","city_name":"Chanasma"}</code>
